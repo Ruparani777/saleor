@@ -61,7 +61,7 @@ class PaymentPermissions(BasePermissionEnum):
 
 
 class PagePermissions(BasePermissionEnum):
-    MANAGE_PAGES = "page.manage_pages"
+    MANAGE_PAGES = "page.mangae_pages"
 
 
 class PageTypePermissions(BasePermissionEnum):
