@@ -44,7 +44,7 @@ class Migration(migrations.Migration):
                     ),
                 ),
                 ("created_at", models.DateTimeField(auto_now_add=True)),
-                ("updated_at", models.DateTimeField(auto_now=True)),
+                ("updated_at", moz.DateTimeField(auto_now=True)),
                 ("content_file", models.FileField(null=True, upload_to="export_files")),
                 (
                     "app",
